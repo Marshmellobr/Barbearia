@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela_Inicial));
             Bt_Agenda = new Button();
             Panel_1 = new Panel();
-            Bt_Cliente = new Button();
-            Bt_Estoque = new Button();
             Bt_Finança = new Button();
+            Bt_Estoque = new Button();
+            Bt_Cliente = new Button();
             Bt_Voltar = new Button();
             Panel_1.SuspendLayout();
             SuspendLayout();
@@ -42,13 +42,14 @@
             // 
             Bt_Agenda.Image = (Image)resources.GetObject("Bt_Agenda.Image");
             Bt_Agenda.Location = new Point(14, 14);
-            Bt_Agenda.Margin = new Padding(4, 4, 4, 4);
+            Bt_Agenda.Margin = new Padding(4);
             Bt_Agenda.Name = "Bt_Agenda";
             Bt_Agenda.Size = new Size(167, 201);
             Bt_Agenda.TabIndex = 0;
             Bt_Agenda.Text = "&Agenda";
             Bt_Agenda.TextAlign = ContentAlignment.BottomCenter;
             Bt_Agenda.UseVisualStyleBackColor = true;
+            Bt_Agenda.Click += Bt_Agenda_Click;
             // 
             // Panel_1
             // 
@@ -61,17 +62,18 @@
             Panel_1.Size = new Size(717, 240);
             Panel_1.TabIndex = 1;
             // 
-            // Bt_Cliente
+            // Bt_Finança
             // 
-            Bt_Cliente.Image = (Image)resources.GetObject("Bt_Cliente.Image");
-            Bt_Cliente.Location = new Point(189, 14);
-            Bt_Cliente.Margin = new Padding(4);
-            Bt_Cliente.Name = "Bt_Cliente";
-            Bt_Cliente.Size = new Size(167, 201);
-            Bt_Cliente.TabIndex = 1;
-            Bt_Cliente.Text = "&Cliente";
-            Bt_Cliente.TextAlign = ContentAlignment.BottomCenter;
-            Bt_Cliente.UseVisualStyleBackColor = true;
+            Bt_Finança.Image = (Image)resources.GetObject("Bt_Finança.Image");
+            Bt_Finança.Location = new Point(539, 14);
+            Bt_Finança.Margin = new Padding(4);
+            Bt_Finança.Name = "Bt_Finança";
+            Bt_Finança.Size = new Size(167, 201);
+            Bt_Finança.TabIndex = 3;
+            Bt_Finança.Text = "&Finança";
+            Bt_Finança.TextAlign = ContentAlignment.BottomCenter;
+            Bt_Finança.UseVisualStyleBackColor = true;
+            Bt_Finança.Click += Bt_Finança_Click;
             // 
             // Bt_Estoque
             // 
@@ -84,18 +86,20 @@
             Bt_Estoque.Text = "&Estoque";
             Bt_Estoque.TextAlign = ContentAlignment.BottomCenter;
             Bt_Estoque.UseVisualStyleBackColor = true;
+            Bt_Estoque.Click += Bt_Estoque_Click;
             // 
-            // Bt_Finança
+            // Bt_Cliente
             // 
-            Bt_Finança.Image = (Image)resources.GetObject("Bt_Finança.Image");
-            Bt_Finança.Location = new Point(539, 14);
-            Bt_Finança.Margin = new Padding(4);
-            Bt_Finança.Name = "Bt_Finança";
-            Bt_Finança.Size = new Size(167, 201);
-            Bt_Finança.TabIndex = 3;
-            Bt_Finança.Text = "&Finança";
-            Bt_Finança.TextAlign = ContentAlignment.BottomCenter;
-            Bt_Finança.UseVisualStyleBackColor = true;
+            Bt_Cliente.Image = (Image)resources.GetObject("Bt_Cliente.Image");
+            Bt_Cliente.Location = new Point(189, 14);
+            Bt_Cliente.Margin = new Padding(4);
+            Bt_Cliente.Name = "Bt_Cliente";
+            Bt_Cliente.Size = new Size(167, 201);
+            Bt_Cliente.TabIndex = 1;
+            Bt_Cliente.Text = "&Cliente";
+            Bt_Cliente.TextAlign = ContentAlignment.BottomCenter;
+            Bt_Cliente.UseVisualStyleBackColor = true;
+            Bt_Cliente.Click += Bt_Cliente_Click;
             // 
             // Bt_Voltar
             // 
@@ -105,6 +109,7 @@
             Bt_Voltar.TabIndex = 2;
             Bt_Voltar.Text = "&Voltar";
             Bt_Voltar.UseVisualStyleBackColor = true;
+            Bt_Voltar.Click += Bt_Voltar_Click;
             // 
             // Tela_Inicial
             // 
@@ -116,10 +121,12 @@
             Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
+            MaximizeBox = false;
             Name = "Tela_Inicial";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Menu inicial";
+            Load += Tela_Inicial_Load;
             Panel_1.ResumeLayout(false);
             ResumeLayout(false);
         }

@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|c:\\users\\joao.vcarvalho7\\source\\repos\\barbearia\\barbearia\\tela inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|c:\\users\\joao.vcarvalho7\\source\\repos\\barbearia\\barbearia\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|solutionrelative:barbearia\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\barbearia\\tela inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|solutionrelative:barbearia\\tela inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\barbearia\\finan\u00E7a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|solutionrelative:barbearia\\finan\u00E7a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|c:\\users\\joao.vcarvalho7\\source\\repos\\barbearia\\barbearia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|solutionrelative:barbearia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\barbearia\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|solutionrelative:barbearia\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|c:\\users\\joao.vcarvalho7\\source\\repos\\barbearia\\barbearia\\tela inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|solutionrelative:barbearia\\tela inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\barbearia\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|solutionrelative:barbearia\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|c:\\users\\joao.vcarvalho7\\source\\repos\\barbearia\\barbearia\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C885F4-7684-41C9-9AA7-F3742CAA1E08}|Barbearia\\Barbearia.csproj|solutionrelative:barbearia\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,41 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Finan\u00E7a.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Finan\u00E7a.cs",
-              "RelativeDocumentMoniker": "Barbearia\\Finan\u00E7a.cs",
-              "ToolTip": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Finan\u00E7a.cs [Design]",
-              "RelativeToolTip": "Barbearia\\Finan\u00E7a.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Login.cs",
+              "RelativeDocumentMoniker": "Barbearia\\Login.cs",
+              "ToolTip": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Login.cs",
+              "RelativeToolTip": "Barbearia\\Login.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwDAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T19:48:08.86Z"
+              "WhenOpened": "2025-03-26T19:34:38.08Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Program.cs",
+              "RelativeDocumentMoniker": "Barbearia\\Program.cs",
+              "ToolTip": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Program.cs",
+              "RelativeToolTip": "Barbearia\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T20:01:35.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Tela Inicial.cs [Design]",
               "DocumentMoniker": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Tela Inicial.cs",
               "RelativeDocumentMoniker": "Barbearia\\Tela Inicial.cs",
               "ToolTip": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Tela Inicial.cs [Design]",
               "RelativeToolTip": "Barbearia\\Tela Inicial.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T19:47:20.92Z",
+              "WhenOpened": "2025-03-26T19:49:54.955Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cliente.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Cliente.cs",
-              "RelativeDocumentMoniker": "Barbearia\\Cliente.cs",
-              "ToolTip": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Cliente.cs [Design]",
-              "RelativeToolTip": "Barbearia\\Cliente.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "Agenda.cs",
+              "DocumentMoniker": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Agenda.cs",
+              "RelativeDocumentMoniker": "Barbearia\\Agenda.cs",
+              "ToolTip": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Agenda.cs",
+              "RelativeToolTip": "Barbearia\\Agenda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T19:46:57.171Z"
+              "WhenOpened": "2025-03-26T19:46:40.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Agenda.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Agenda.cs",
+              "RelativeDocumentMoniker": "Barbearia\\Agenda.cs",
+              "ToolTip": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Agenda.cs [Design]",
+              "RelativeToolTip": "Barbearia\\Agenda.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T19:44:24.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tela Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Tela Inicial.cs",
+              "RelativeDocumentMoniker": "Barbearia\\Tela Inicial.cs",
+              "ToolTip": "C:\\Users\\joao.vcarvalho7\\source\\repos\\Barbearia\\Barbearia\\Tela Inicial.cs",
+              "RelativeToolTip": "Barbearia\\Tela Inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T18:25:51.393Z"
             }
           ]
         }

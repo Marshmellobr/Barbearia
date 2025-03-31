@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             label1 = new Label();
             Panel_1 = new Panel();
+            Bt_Sair = new Button();
+            Bt_Entrar = new Button();
             Tb_Senha = new TextBox();
             Tb_Usuario = new TextBox();
             label2 = new Label();
-            Bt_Entrar = new Button();
-            Bt_Sair = new Button();
             Panel_1.SuspendLayout();
             SuspendLayout();
             // 
@@ -56,10 +56,31 @@
             Panel_1.Controls.Add(Tb_Usuario);
             Panel_1.Controls.Add(label2);
             Panel_1.Controls.Add(label1);
-            Panel_1.Location = new Point(53, 51);
+            Panel_1.Location = new Point(47, 29);
             Panel_1.Name = "Panel_1";
-            Panel_1.Size = new Size(470, 214);
+            Panel_1.Size = new Size(470, 210);
             Panel_1.TabIndex = 0;
+            Panel_1.Paint += Panel_1_Paint;
+            // 
+            // Bt_Sair
+            // 
+            Bt_Sair.Location = new Point(365, 135);
+            Bt_Sair.Name = "Bt_Sair";
+            Bt_Sair.Size = new Size(86, 35);
+            Bt_Sair.TabIndex = 4;
+            Bt_Sair.Text = "Sair";
+            Bt_Sair.UseVisualStyleBackColor = true;
+            Bt_Sair.Click += Bt_Sair_Click;
+            // 
+            // Bt_Entrar
+            // 
+            Bt_Entrar.Location = new Point(100, 135);
+            Bt_Entrar.Name = "Bt_Entrar";
+            Bt_Entrar.Size = new Size(88, 35);
+            Bt_Entrar.TabIndex = 3;
+            Bt_Entrar.Text = "Entrar";
+            Bt_Entrar.UseVisualStyleBackColor = true;
+            Bt_Entrar.Click += Bt_Entrar_Click;
             // 
             // Tb_Senha
             // 
@@ -84,24 +105,6 @@
             label2.TabIndex = 1;
             label2.Text = "Senha :";
             // 
-            // Bt_Entrar
-            // 
-            Bt_Entrar.Location = new Point(100, 135);
-            Bt_Entrar.Name = "Bt_Entrar";
-            Bt_Entrar.Size = new Size(88, 35);
-            Bt_Entrar.TabIndex = 3;
-            Bt_Entrar.Text = "Entrar";
-            Bt_Entrar.UseVisualStyleBackColor = true;
-            // 
-            // Bt_Sair
-            // 
-            Bt_Sair.Location = new Point(365, 135);
-            Bt_Sair.Name = "Bt_Sair";
-            Bt_Sair.Size = new Size(86, 35);
-            Bt_Sair.TabIndex = 4;
-            Bt_Sair.Text = "Sair";
-            Bt_Sair.UseVisualStyleBackColor = true;
-            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(10F, 18F);
@@ -116,6 +119,7 @@
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            Load += Login_Load;
             Panel_1.ResumeLayout(false);
             Panel_1.PerformLayout();
             ResumeLayout(false);
